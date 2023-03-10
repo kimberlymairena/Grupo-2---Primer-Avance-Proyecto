@@ -4,14 +4,11 @@ src: url('"../fonts/sitka-small-599.ttf"') format('truetype'), url('"../fonts/si
 url('"../fonts/sitka-small-815.ttf"') format('truetype');    
 }
 
-:root{
-	--color-cafe:#6B5141;
-}
-
 body{
-	font-family: 'Sitka Subheading';
+	font-family: "Sitka", sans-serif;
 	background-color: #EDEDED;
 }
+
 .freshcoffeelogo{
 	width: 85px;
 	margin-left: 40%;
@@ -33,22 +30,26 @@ body{
 .nav-item i{
 	font-size: 35px;
 }
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+
 header{
 	position: absolute;
 	width: 100%;
 	margin-top: 40px;
-}
-
-.ms-auto{
-	margin-right: 3%;
+	background-color: #A79C72;
 }
 
 #color{
 	background-color: #A79C72;
 	padding: 100px;
 }
-/* ----------------------------------------------------------------------------------------------------------------*/
 
+.ms-auto{
+	margin-right: 3%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
 .menu-text{
 	text-align: center;
 	padding-top: 95px;
@@ -68,73 +69,29 @@ header{
 
 
 /* ----------------------------------------------------------------------------------------------------------------*/
+.lab{
+	font-size: 40px;
+	padding-right: 15px;
+}
+
+.las{
+	font-size: 40px;
+	padding-right: 10px;
+}
+
+.titulo{
+	padding-top: 15px;
+	font-family: "Sitka Subheading";
+	padding-left: 15px;
+}
+
+.direccion{
+	font-family: "Sitka Subheading";
+	padding-left: 15px;
+}
+
 #contacto{
 	padding-bottom: 50px;
-}
-#contacto h2{
-	font-size: 40px;
-}
-#contacto h6{
-	font-size: 19px;
-	padding: 15px 0;
-}
-.text{
-	background-color: #fff;
-	width: 564px;
-	height: 700px;
-	border-radius: 12px;
-	border: 2px solid rgba(58,50,38,1.00);
-	padding: 30px 0;
-}
-
-.text h3{
-	padding: 30px 0;
-}
-
-.form-control{
-	background-color: #EDEDED;
-	padding: 0.4rem 0.5rem;
-	color: #5B5B5B;
-	text-align: left;
-	margin: 0 auto;
-}
-
-.form-group{
-	text-align: left;
-}
-form label{
-	padding: 10px 0;
-	font-weight:bold;
-	display:inline-block;
-}
-
-.btn.btn-outline-secondary{
-	margin: 40px 0;
-	padding: 10px 45px;
-	border: 2px solid rgba(58,50,38,1.00);
-}
-.btn-outline-secondary:hover{
-	background-color: var(--color-cafe);
-	color: #fff;
-}
-#redes-sociales{
-	background-color: #fff;
-	border-radius: 19px;
-	padding: 10px 5px;
-	text-align: center;
-	width: 350px;
-}
-
-i{
-	color: var(--color-cafe);
-	font-size: 30px;
-}
-
-textarea{
-	/*resize: vertical | horizontal | none | both*/
-	resize:none;
-	display: block;
-	text-align: left !important;
 }
 /* ----------------------------------------------------------------------------------------------------------------*/
 
@@ -235,4 +192,3 @@ footer a{
 	text-decoration: none;
 	color: #0D1923;
 }
-

@@ -4,8 +4,14 @@ src: url('"../fonts/sitka-small-599.ttf"') format('truetype'), url('"../fonts/si
 url('"../fonts/sitka-small-815.ttf"') format('truetype');    
 }
 
+:root{
+	--color-hover-menu:#DECC80;
+	--color-titulos:#6B5141;
+}
+
 body{
 	font-family: "Sitka", sans-serif;
+	background-color: #EDEDED;
 }
 
 .freshcoffeelogo{
@@ -49,138 +55,15 @@ header{
 }
 
 /* ----------------------------------------------------------------------------------------------------------------*/
-
-.card{
-	padding: 3%;
-	border-color: #6B5141;
-	border-style: solid;
-	border-width: 2px;
-	margin-top: 10%;
-	margin-bottom: 10%;
+.menu-text{
+	text-align: center;
+	padding-top: 95px;
+	color:#0D1923;
+	font-size: 45px;
+	font-family: "Sitka Subheading Semibold";
 }
-
-.redondeado {
-text-align: left;
-border-radius: 5px;
-border-color: #6B5141;
-width: 73% !important;
-padding-left: 3%;
-font-family: "Sitka Text ";
-font-size: 17px;
-	border-style: solid;
-}
-.cafe{
-	background-color: #6B5141;
-	min-height: 530px;
-}
-.card-title{
-	color: #FFFFFF;
-	font-family:"Sitka Subheading Semibold";
-	font-size: 28px;
-}
-.card-cafe{
-	color:#FFFFFF;
-	font-family: "Sitka Text";
-	font-size: 15px;
-	text-decoration: underline;
-	padding-top: 1%;
-}
-.btn-primary{
-	background-color: #FFFFFF;
-	text-align-last: center;
-}
-/*.pequeño{
-	text-align: left;
-border-radius: 5px;
-border-color: #6B5141;
-width: 50% !important;
-padding-left: 3%;
-font-family: "Sitka Text ";
-font-size: 17px;
-	border-style: solid;
-}*/
-.card-beige{
-	color:  #6B5141;
-	font-family:"Sitka Subheading Semibold";
-	font-size: 28px;
-	
-}
-.button-blanco{
-	background-color: #fff;
-	border-radius: 8px;
-	padding: 8px 40px;
-	border-color: #6B5141;
-	border-style: solid;
-	margin: 10px;
-	font-family:"Sitka Heading";
-	font-size: 20px;
-}
-
-.button-blanco:hover{
-	background-color: #6B5141;
-	color: #F6F6F6;
-}
-
-.button-blanco-inicio{
-	background-color: #fff;
-	border-radius: 8px;
-	padding: 8px 40px;
-	border-color: #6B5141;
-	border-style: solid;
-	font-family:"Sitka Heading";
-	font-size: 20px;
-	margin-top: 85px;
-}
-
-.button-blanco-inicio:hover{
-	background-color:#A79C72;
-	color: #F6F6F6;
-}
-
-
-.titulo{
-	padding: 3% 0 0;
-	color: #fff;
-	font-family:"Sitka Subheading";
-	font-size: 16px;
-}
-.titulo2{
-	padding: 3% 0 0;
-	color: #6B5141;
-	font-family:"Sitka Subheading";
-	font-size: 16px;
-}
-.textbox-form{
-	text-align: left;
-	border-radius: 5px;
-	background-color: #F6F6F6;
-	width: 73% !important;
-	padding-left: 3%;
-	font-family: "Sitka Text ";
-	font-size: 17px;
-	border-style: none;
-}
-
-.textbox-form-1{
-	text-align: left;
-	border-radius: 5px;
-	background-color: #F6F6F6;
-	width: 87% !important;
-	padding-left: 3%;
-	font-family: "Sitka Text ";
-	font-size: 17px;
-	border-style: none;
-}
-
-
-#form{
-	background-color: #EDEDED;
-	padding-bottom: 4%;
-	padding-top: 3%;
-}
-
 .subtext-line{
-	width: 10%;
+	width: 4%;
 	text-align: center;
 	margin: 0 auto;
 	border-width: 4px;
@@ -189,21 +72,84 @@ font-size: 17px;
 	margin-bottom: 50px;
 }
 
-.subtext-line-white{
-	width: 10%;
+/* ----------------------------------------------------------------------------------------------------------------*/
+.menu-navbar{
+	padding: 15px 30px;
+	font-family: "Sitka Subheading Semibold";
+	font-size: 20px;
+	border: 2px solid #6B5141;
+	border-radius: 40px;
+}
+.menu-navbar:hover{
+	background-color: #6B5141;
+	color: #fff;
+}
+.menu-navbar.active{
+	background-color: #6B5141;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #0D1923;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+#menu-cards{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.cafeinfo{
+padding-bottom: 2%;
+color: #0D1923;
+}
+
+.card-body{
+	margin-bottom: 5%;
+}
+
+.card-titles{
+	font-size: 28px;
+	text-align: center;
+	font-family: "Sitka Heading";
+}
+
+.subtext-line-menu{
+	width: 25%;
 	text-align: center;
 	margin: 0 auto;
 	border-width: 4px;
-	background-color: #F6F6F6; height: 3px; border: 0;
+	background-color: #6B5141; height: 3px; border: 0;
 	opacity: 90%;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
-.chekbox-info{
-	font-family: "Sitka Text ";
-	font-size: 16px;
-	padding-top: 2%;
+.card-info{
+	text-align: center;
+	font-family: "Sitka Text";
+	font-size: 22px;
+	padding-bottom: 2%;
+	
 }
+
+.btn-primary{
+	background-color: #6B5141;
+	border: none;
+	width: 45% !important;
+	font-family:"Sitka Heading Semibold";
+	font-size: 18px;
+}
+
+.btn-primary:hover{
+	background-color:var(--color-hover-menu);
+	border: none;
+	width: 45% !important;
+	font-family:"Sitka Heading Semibold";
+	font-size: 18px;
+	color:var(--color-titulos);
+}
+
 /* ----------------------------------------------------------------------------------------------------------------*/
 
 footer{
@@ -303,3 +249,4 @@ footer a{
 	text-decoration: none;
 	color: #0D1923;
 }
+

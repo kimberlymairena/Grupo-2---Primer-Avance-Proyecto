@@ -9,6 +9,10 @@
 <link href="css/bootstrap-custom.css" rel="stylesheet">	
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 <link href="css/inicioregistro.css" rel="stylesheet">
+	
+	<meta name="Description" content="Página web de Fresh Coffee, cafeteria">
+	<meta name="Keywords" content="cafeteria, Fresh Coffee, Fresh Coffee cafeteria, comida, bebidas, postres, cafe, malteadas, donas, pasteles">
+	
 </head>
 
 <body>
@@ -32,7 +36,7 @@
 							</li>
 							
 							<li class="nav-item">
-								<a class="nav-link" href="#">Menú</a>
+								<a class="nav-link" href="menuprincipal.html">Menú</a>
 							</li>
 							
 							<li class="nav-item">
@@ -40,7 +44,7 @@
 							</li>
 							
 							<li class="nav-item">
-								<a class="nav-link" href="#">Ubicación</a>
+								<a class="nav-link" href="ubicacion.html">Ubicación</a>
 							</li>
 						</ul>
 						<ul class="navbar-nav ms-auto">
@@ -76,10 +80,15 @@
 		    <input type="email" size="15" maxlength="30" class="textbox-form-1" placeholder="Correo electrónico">
 		  <p class="titulo">Contraseña</p>
 		  <input type="password" size="15" maxlength="30" class="textbox-form-1" placeholder="Contraseña">
-		  <a href="#" target="_blank">
-		  <p class="card-cafe"><em>Olvide mi contraseña</em></p>
+		  
+		  <a href="#">
+		  	<p class="card-cafe"><em>Olvide mi contraseña</em></p>
 		  </a>
-		  <center><button class="button-blanco-inicio"><a>Iniciar sesión</a></button></center>
+		  
+		  <a href="perfil.html">
+		  	<center><button class="button-blanco-inicio">Iniciar sesión</button></center>
+		  </a>
+		  
       </div>
     </div>
   </div>
@@ -111,7 +120,11 @@
 		  <p><input type="checkbox" id="box" name="box" class="box-form">
 			  
            <label for="vehicle1" class="chekbox-info">¿Desea recibir correos electronicos de Fresh Coffe?</label><br></p>
-        <center><button class="button-blanco"><a>Crear cuenta</a></button></center>
+		  
+		  <a href="#" target="_blank">
+        	<center><button class="button-blanco"><a>Crear cuenta</a></button></center>
+		  </a>
+		  
       </div>
     </div>
   </div>
@@ -119,6 +132,7 @@
 </div>
 </section>
 	
+		
 	<footer>
 		
 		<div class="container">
@@ -149,7 +163,7 @@
 				
 				<article class="col-md3 col-sm-3 col-12">
 					<h5>Contáctanos</h5>
-                       <p class="contactanos">¿Tiene una opinión sobre los productos? Contáctenos vía email directamente en <b>FreshCoffee@hotmail.com</b></p>
+                       <p class="contactanos">¿Tiene una opinión sobre los productos? Contáctenos vía email directamente en <a href="#"><b>FreshCoffee@hotmail.com</b></a></p>
 					
 					
 					<button class="boton-footer">
@@ -190,23 +204,23 @@
 				<article class="col-md3 col-sm-3 col-12">
 				  <h5>Nuestro menú</h5>
 					
-					<a href="#" target="_blank">
+					<a href="cafe.html">
 						<p class="txt">Café</p>
 					</a>
 					
-					<a href="#" target="_blank">
+					<a href="pastel.html">
 						<p class="txt">Pasteles</p>
 					</a>
 					
-					<a href="#" target="_blank">
+					<a href="donas.html">
 						<p class="txt">Donas</p>
 					</a>
 					
-					<a href="#" target="_blank">
+					<a href="malteadas.html">
 						<p class="txt">Malteadas</p>
 					</a>
 					
-					<a href="#" target="_blank">
+					<a href="galletas.html">
 						<p class="txt">Galletas</p>
 					</a>
 				</article>
@@ -216,15 +230,15 @@
 					
 				  <h5>Acerca de</h5>
 					
-					<a href="#" target="_blank">
+					<a href="#">
 						<p class="txt">¿Quiénes somos?</p>
 					</a>
 					
-					<a href="#" target="_blank">
+					<a href="#">
 						<p class="txt">Política de Privacidad</p> 
 					</a>
 					
-					<a href="#" target="_blank">
+					<a href="#">
 						<p class="txt">Términos y Condiciones</p>
 					</a>
 				</article>
@@ -233,9 +247,18 @@
 		  </div>
 		</div>
 	</footer>
-
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	
+			<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KB3S5NYHEE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KB3S5NYHEE');
+</script>
 </body>
 </html>
